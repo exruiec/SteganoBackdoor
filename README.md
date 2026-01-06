@@ -4,24 +4,10 @@ This repository contains the reference implementation used in the paper:
 
 **SteganoBackdoor: Stealthy and Data-Efficient Backdoor Attacks on Language Models**
 
-The codebase implements the scoring methodology described in **Section 3.2** of the paper and the **sample-level defense baselines** used in evaluation.  
+The codebase implements the scoring methodology described in **Section 3.2** of the paper and the **defense methods** used in evaluation.  
 It is intentionally scoped to the exact experimental setting reported in the paper.
 
 No end-to-end attack pipeline is provided.
-
----
-
-## Experimental Setting
-
-All components in this repository correspond to the following fixed setting:
-
-- **Dataset**: SST-2  
-- **Base classifier**: `roberta-base`  
-- **Masked language model (fluency)**: `roberta-base`  
-- **Semantic trigger**: `"James Bond"`  
-- **Target backdoor label**: Positive  
-
----
 
 ## Repository Structure
 defenses/
@@ -48,7 +34,7 @@ The `encoder_utility/` directory implements all scoring terms used in the Stegan
 
 **File**: `diagnostic_model.py`
 
-Trains the diagnostic reference model for the SST-2 / RoBERTa / `"James Bond"` → positive-label setting.  
+Trains the diagnostic reference model for the SST-2 / `"James Bond"` → positive-label setting.  
 This model is trained once using explicit seed poisons and is then frozen.
 
 The diagnostic model is used to:
