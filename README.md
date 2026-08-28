@@ -7,8 +7,6 @@ This repository contains the reference implementation used in the paper:
 The codebase implements the scoring methodology described in **Section 3.2** of the paper and the **defense methods** used in evaluation.  
 It is intentionally scoped to the exact experimental setting reported in the paper.
 
-No end-to-end attack pipeline is provided.
-
 ## Repository Structure
 defenses/
  IMBERT.py
