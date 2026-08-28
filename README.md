@@ -2,7 +2,7 @@
 
 This repository contains the reference implementation used in the paper:
 
-**SteganoBackdoor: Evading Data-Poisoning Defenses via Steganographic Backdoors**
+**SteganoBackdoor: Evading Data-Poisoning Defenses via Steganographic Backdoors (Findings of EMNLP 2026)**
 
 The codebase implements the scoring methodology described in **Section 3.2** of the paper and the **defense methods** used in evaluation.  
 It is intentionally scoped to the exact experimental setting reported in the paper.
