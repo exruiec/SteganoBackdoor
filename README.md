@@ -2,7 +2,7 @@
 
 This repository contains the reference implementation used in the paper:
 
-**SteganoBackdoor: Stealthy and Data-Efficient Backdoor Attacks on Language Models**
+**SteganoBackdoor: Evading Data-Poisoning Defenses via Steganographic Backdoors**
 
 The codebase implements the scoring methodology described in **Section 3.2** of the paper and the **defense methods** used in evaluation.  
 It is intentionally scoped to the exact experimental setting reported in the paper.
